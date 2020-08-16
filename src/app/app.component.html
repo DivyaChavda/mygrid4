@@ -1,0 +1,13 @@
+<ag-grid-angular
+style="width: 1500px; height: 750px;"
+class="ag-theme-balham"
+[columnDefs]="columnDefs"
+[enableSorting]="true"
+[enableFilter]="true"
+[pagination]="true"
+[animateRows]="true"
+rowSelection="multiple"
+(gridReady)="onGridReady($event)"
+></ag-grid-angular>
+<!-- [rowData]="rowData" [columnDefs]="columnDefs" " -->
+<!-- [animateRows]="true"-->
